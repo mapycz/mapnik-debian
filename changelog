@@ -1,3 +1,9 @@
+szn-mapnik (3.0.0pre-3) Seznam; urgency=low
+
+  * upstream update
+
+ --  Jiri Drbalek <jiri.drbalek@firma.seznam.cz>  Tue, 23 Sep 2014 11:11:21 +0000
+
 szn-mapnik (3.0.0pre-2) unstable; urgency=low
 
   * fix painted

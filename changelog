@@ -1,3 +1,9 @@
+szn-mapnik (3.0.0pre-4) Seznam; urgency=low
+
+  * fix text symbolizer property data binding
+
+ --  Jiri Drbalek <jiri.drbalek@firma.seznam.cz>  Thu, 25 Sep 2014 12:06:26 +0000
+
 szn-mapnik (3.0.0pre-3) Seznam; urgency=low
 
   * upstream update

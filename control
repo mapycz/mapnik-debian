@@ -31,7 +31,8 @@ Build-Depends:
  libcairo2-dev,
  python-cairo-dev,
  libsqlite3-dev,
- libcurl4-gnutls-dev
+ libcurl4-gnutls-dev,
+ libxslt-dev
 Standards-Version: 3.8.4
 Section: libs
 XS-Python-Version: >= 2.5

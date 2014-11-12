@@ -1,3 +1,11 @@
+szn-mapnik (3:3.0.0) Seznam; urgency=low
+
+  * fix per layer buffer-size
+  * fix markers on squiggly lines
+  * XSLT preprocessing
+
+ --  Jiri Drbalek <jiri.drbalek@firma.seznam.cz>  Tue, 11 Nov 2014 14:37:24 +0000
+
 szn-mapnik (3.0.0pre-4) Seznam; urgency=low
 
   * fix text symbolizer property data binding

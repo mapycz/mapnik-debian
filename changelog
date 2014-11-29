@@ -1,3 +1,9 @@
+szn-mapnik (3:3.0.2) Seznam; urgency=low
+
+  * fix glyph height calculation
+
+ --  Jiri Drbalek <jiri.drbalek@firma.seznam.cz>  Wed, 26 Nov 2014 20:00:34 +0000
+
 szn-mapnik (3:3.0.1) Seznam; urgency=low
 
   * hot-fixed glyph height calculation (breaks tests).

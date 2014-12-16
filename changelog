@@ -1,3 +1,9 @@
+szn-mapnik (3:3.0.3) Seznam; urgency=low
+
+  * fix szn-g++ (=4.9.1-001)
+
+ --  Jan Flidr <jan.flidr@firma.seznam.cz>  Tue, 16 Dec 2014 10:20:54 +0000
+
 szn-mapnik (3:3.0.2) Seznam; urgency=low
 
   * fix glyph height calculation

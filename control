@@ -5,7 +5,6 @@ Uploaders: Robert Coup <robert@coup.net.nz>
 Build-Depends:
  szn-g++-4.9 (=4.9.1-001),
  make,
- git-core,
  python-support (>= 0.8.4),
  python-nose,
  debhelper (>= 7.0.50~),

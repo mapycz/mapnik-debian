@@ -1,3 +1,9 @@
+szn-mapnik (3:3.2.1) Seznam; urgency=low
+
+  * no throw on missing style
+
+ --  Jiri Drbalek <jiri.drbalek@firma.seznam.cz>  Thu, 16 Apr 2015 11:49:05 +0000
+
 szn-mapnik (3:3.2.0) Seznam; urgency=low
 
   * sync with upstream

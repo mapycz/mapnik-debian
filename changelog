@@ -1,3 +1,10 @@
+szn-mapnik (3:3.2.0) Seznam; urgency=low
+
+  * sync with upstream
+  * new angle and combined text placement with anchor
+
+ --  Jiri Drbalek <jiri.drbalek@firma.seznam.cz>  Thu, 16 Apr 2015 11:49:05 +0000
+
 szn-mapnik (3:3.0.3) Seznam; urgency=low
 
   * fix szn-g++ (=4.9.1-001)

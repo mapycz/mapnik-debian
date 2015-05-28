@@ -1,3 +1,9 @@
+szn-mapnik (3:3.2.2) Seznam; urgency=low
+
+  * fix crash
+
+ --  Jiri Drbalek <jiri.drbalek@firma.seznam.cz>  Thu, 28 May 2015 10:27:08 +0000
+
 szn-mapnik (3:3.2.1) Seznam; urgency=low
 
   * no throw on missing style

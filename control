@@ -1,7 +1,7 @@
 Source: szn-mapnik
 Priority: optional
-Maintainer: Mapnik Developers <mapnik@googlegroups.com>
-Uploaders: Robert Coup <robert@coup.net.nz>
+Maintainer: Jiri Drbalek <jiri.drbalek@firma.seznam.cz>
+Uploaders: Jiri Drbalek <jiri.drbalek@firma.seznam.cz>
 Build-Depends:
  szn-g++-4.9 (>=4.9.1-001),
  make,
@@ -35,7 +35,7 @@ Build-Depends:
 Standards-Version: 3.8.4
 Section: libs
 XS-Python-Version: >= 2.5
-Homepage: http://www.mapnik.org/
+Homepage: https://github.com/mapycz/mapnik
 
 Package: szn-libmapnik
 Architecture: any
@@ -46,8 +46,8 @@ Depends:
 Suggests:
  ttf-dejavu,
  ttf-unifont
-Description: C++/Python toolkit for developing GIS applications (libraries)
- Mapnik is an OpenSource C++/Python toolkit for developing GIS
+Description: C++ toolkit for developing GIS applications (libraries)
+ Mapnik is an OpenSource C++ toolkit for developing GIS
  (Geographic Information Systems) applications. At the core is a C++
  shared library providing algorithms/patterns for spatial data access and
  visualization.
@@ -127,8 +127,8 @@ Depends:
  libicu-dev (>= 4.2),
  libcairo2-dev
 Suggests: szn-mapnik-doc
-Description: C++/Python toolkit for developing GIS applications (devel)
- Mapnik is an OpenSource C++/Python toolkit for developing GIS
+Description: C++ toolkit for developing GIS applications (devel)
+ Mapnik is an OpenSource C++ toolkit for developing GIS
  (Geographic Information Systems) applications. At the core is a C++
  shared library providing algorithms/patterns for spatial data access and
  visualization.
@@ -154,8 +154,8 @@ Recommends:
  python-lxml
 Conflicts: szn-mapnik-utils
 Replaces: szn-mapnik-utils
-Description: C++/Python toolkit for developing GIS applications (utilities)
- Mapnik is an OpenSource C++/Python toolkit for developing GIS
+Description: C++ toolkit for developing GIS applications (utilities)
+ Mapnik is an OpenSource C++ toolkit for developing GIS
  (Geographic Information Systems) applications. At the core is a C++
  shared library providing algorithms/patterns for spatial data access and
  visualization.
@@ -183,8 +183,8 @@ Suggests:
  python-cairo
 Provides: ${python:Provides}
 XB-Python-Version: ${python:Versions}
-Description: C++/Python toolkit for developing GIS applications (Python)
- Mapnik is an OpenSource C++/Python toolkit for developing GIS
+Description: C++ toolkit for developing GIS applications (Python)
+ Mapnik is an OpenSource C++ toolkit for developing GIS
  (Geographic Information Systems) applications. At the core is a C++
  shared library providing algorithms/patterns for spatial data access and
  visualization.
@@ -205,8 +205,8 @@ Recommends: szn-libmapnik-dev
 Depends: ${misc:Depends}
 Conflicts: szn-mapnik-docs
 Replaces: szn-mapnik-docs
-Description: C++/Python toolkit for developing GIS applications (doc)
- Mapnik is an OpenSource C++/Python toolkit for developing GIS
+Description: C++ toolkit for developing GIS applications (doc)
+ Mapnik is an OpenSource C++ toolkit for developing GIS
  (Geographic Information Systems) applications. At the core is a C++
  shared library providing algorithms/patterns for spatial data access and
  visualization.

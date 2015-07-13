@@ -1,3 +1,9 @@
+szn-mapnik (3:3.4.1) Seznam; urgency=low
+
+  * performance improvements
+
+ --  Jiri Drbalek <jiri.drbalek@firma.seznam.cz>  Mon, 13 Jul 2015 11:51:00 +0000
+
 szn-mapnik (3:3.4.0) Seznam; urgency=low
 
   * sync with 3.0.0 upstream release

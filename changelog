@@ -1,3 +1,12 @@
+szn-mapnik (3:3.4.2) Seznam; urgency=low
+
+  * text-minimum-path-length fixed
+  * text grid placement: spiral iterator
+  * ensure null text has no bbox
+  * fixed pycairo support
+
+ --  Jiri Drbalek <jiri.drbalek@firma.seznam.cz>  Mon, 17 Aug 2015 09:38:32 +0000
+
 szn-mapnik (3:3.4.1) Seznam; urgency=low
 
   * performance improvements

@@ -1,3 +1,9 @@
+szn-mapnik (3:3.4.3) Seznam; urgency=low
+
+  * fix horizontal alignment adjust with offset
+
+ --  Jiri Drbalek <jiri.drbalek@firma.seznam.cz>  Mon, 24 Aug 2015 19:23:15 +0000
+
 szn-mapnik (3:3.4.2) Seznam; urgency=low
 
   * text-minimum-path-length fixed

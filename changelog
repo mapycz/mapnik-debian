@@ -1,4 +1,10 @@
-szn-mapnik (3:3.4.4) UNRELEASED; urgency=low
+szn-mapnik (3:3.4.5) Seznam; urgency=low
+
+  * clip support added to grid placement
+
+ --  Jiri Drbalek <jiri.drbalek@firma.seznam.cz>  Thu, 27 Aug 2015 13:40:22 +0000
+
+szn-mapnik (3:3.4.4) Seznam; urgency=low
 
   * offset converter temporarily reverted due to quality issues with the new
     algorithm

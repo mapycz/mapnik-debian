@@ -1,3 +1,10 @@
+szn-mapnik (3:3.4.7) Seznam; urgency=low
+
+  * set text shaper by render-time variable 'text-shaper'
+  * scale-hsla image filter: unlimit parameters
+
+ --  Jiri Drbalek <jiri.drbalek@firma.seznam.cz>  Fri, 04 Sep 2015 13:55:02 +0000
+
 szn-mapnik (3:3.4.6) Seznam; urgency=low
 
   * fix offsetted text alignment

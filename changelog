@@ -1,3 +1,10 @@
+szn-mapnik (3:3.4.8) Seznam; urgency=low
+
+  * colorize-alpha: fix normalization of color components
+  * colorize-alpha: add support for transparent colors
+
+ --  Jiri Drbalek <jiri.drbalek@firma.seznam.cz>  Wed, 09 Sep 2015 10:27:58 +0000
+
 szn-mapnik (3:3.4.7) Seznam; urgency=low
 
   * set text shaper by render-time variable 'text-shaper'

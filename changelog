@@ -1,3 +1,9 @@
+szn-mapnik (3:3.4.9) Seznam; urgency=low
+
+  * quick fix of https://github.com/mapnik/mapnik/issues/3064
+
+ --  Jiri Drbalek <jiri.drbalek@firma.seznam.cz>  Fri, 11 Sep 2015 11:07:58 +0000
+
 szn-mapnik (3:3.4.8) Seznam; urgency=low
 
   * colorize-alpha: fix normalization of color components

@@ -1,3 +1,9 @@
+szn-mapnik (3:3.4.10) Seznam; urgency=low
+
+  * text placement grid: use rasterization for hit-testing polygons
+
+ --  Jiri Drbalek <jiri.drbalek@firma.seznam.cz>  Fri, 16 Oct 2015 13:59:46 +0000
+
 szn-mapnik (3:3.4.9) Seznam; urgency=low
 
   * quick fix of https://github.com/mapnik/mapnik/issues/3064

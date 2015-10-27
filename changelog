@@ -1,3 +1,10 @@
+szn-mapnik (3:3.4.11) Seznam; urgency=low
+
+  * grid placement: handle empty geometries and geometries too huge to be
+    rendered in the memory.
+
+ --  Jiri Drbalek <jiri.drbalek@firma.seznam.cz>  Mon, 26 Oct 2015 16:13:23 +0000
+
 szn-mapnik (3:3.4.10) Seznam; urgency=low
 
   * text placement grid: use rasterization for hit-testing polygons

@@ -1,3 +1,10 @@
+szn-mapnik (3:3.5.0) Seznam; urgency=low
+
+  * raster scaling: fixed nodata handling, acurracy when working with small
+    floats and clipping floats by [0; 255] 
+
+ --  Jiri Drbalek <jiri.drbalek@firma.seznam.cz>  Thu, 29 Oct 2015 09:46:15 +0000
+
 szn-mapnik (3:3.4.11) Seznam; urgency=low
 
   * grid placement: handle empty geometries and geometries too huge to be

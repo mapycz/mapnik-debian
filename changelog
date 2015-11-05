@@ -1,3 +1,9 @@
+szn-mapnik (3:3.5.1) Seznam; urgency=low
+
+  * postgis.input: skip empty geometries
+
+ --  Jiri Drbalek <jiri.drbalek@firma.seznam.cz>  Thu, 05 Nov 2015 14:34:07 +0000
+
 szn-mapnik (3:3.5.0) Seznam; urgency=low
 
   * raster scaling: fixed nodata handling, acurracy when working with small

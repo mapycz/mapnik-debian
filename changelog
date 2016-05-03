@@ -1,3 +1,9 @@
+szn-mapnik (3:3.5.3) Seznam; urgency=low
+
+  * fixed scale factor handling
+
+ -- Jiri Drbalek <jiri.drbalek@firma.seznam.cz>  Tue, 03 May 2016 11:57:49 +0200
+
 szn-mapnik (3:3.5.2) Seznam; urgency=low
 
   * centroid algorithm: check for empty geometries

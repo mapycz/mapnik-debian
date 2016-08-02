@@ -12,8 +12,8 @@ CUSTOM_CXXFLAGS="-fvisibility-inlines-hidden -fvisibility=hidden" \
 CAIRO=True \
 COLOR_PRINT=False \
 DEMO=True \
-SVG_RENDERER = True \
-PGSQL2SQLITE = True \
+SVG_RENDERER=True \
+PGSQL2SQLITE=True \
 SYSTEM_FONTS=/usr/share/fonts/truetype \
 DESTDIR=$(CURDIR)/debian/tmp PREFIX=/usr
 
@@ -36,7 +36,7 @@ endif
 
 override_dh_auto_configure:
 	if [ ! -d ./bindings/python ]; then git clone git@github.com:mapycz/python-mapnik.git --recursive ./bindings/python; else (cd bindings/python && git pull && git submodule update --init); fi;
-	./configure $(SCONS_FLAGS) CUSTOM_CXXFLAGS="$(CFLAGS)"
+	./configure $(SCONS_FLAGS) CUSTOM_CXXFLAGS="$(CFLAGS)" CAIRO=True HAS_PYCAIRO=True
 	dh_auto_configure
 
 # Do no build for every possible python version until this is working properly

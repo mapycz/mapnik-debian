@@ -5,14 +5,10 @@ Uploaders: Jiri Drbalek <jiri.drbalek@firma.seznam.cz>
 Build-Depends:
  szn-g++-4.9 (>=4.9.1-001),
  make,
- python-support (>= 0.8.4),
- python-nose,
  debhelper (>= 7.0.50~),
- python-all-dev,
  libboost-thread-dev (>= 1.49),
  libboost-filesystem-dev (>= 1.49),
  libboost-regex-dev (>= 1.49),
- libboost-python-dev (>= 1.49),
  libboost-system-dev (>= 1.49),
  libboost-program-options-dev (>= 1.49),
  libwebp-dev,
@@ -28,7 +24,6 @@ Build-Depends:
  libxml2-dev,
  libicu-dev (>= 4.2),
  libcairo2-dev,
- python-cairo-dev,
  libsqlite3-dev,
  libcurl4-gnutls-dev,
  libxslt-dev
@@ -113,7 +108,6 @@ Depends:
  libboost-thread-dev (>= 1.42),
  libboost-filesystem-dev (>= 1.42),
  libboost-regex-dev (>= 1.42),
- libboost-python-dev (>= 1.42),
  libboost-system-dev (>= 1.42),
  libwebp-dev,
  libpng-dev,
@@ -170,33 +164,6 @@ Description: C++ toolkit for developing GIS applications (utilities)
  This package contains miscellaneous utilities distributed with mapnik:
  .
  shapeindex: program to creates file system based index for ESRI shape-files
-
-Package: szn-python-mapnik
-Section: python
-Architecture: any
-Depends:
- ${shlibs:Depends},
- ${misc:Depends},
- ${python:Depends},
- szn-libmapnik (= ${binary:Version})
-Suggests:
- python-cairo
-Provides: ${python:Provides}
-XB-Python-Version: ${python:Versions}
-Description: C++ toolkit for developing GIS applications (Python)
- Mapnik is an OpenSource C++ toolkit for developing GIS
- (Geographic Information Systems) applications. At the core is a C++
- shared library providing algorithms/patterns for spatial data access and
- visualization.
- .
- Essentially a collection of geographic objects (map, layer, datasource,
- feature, geometry), the library doesn't rely on "windowing systems" and
- is intended to work in multi-threaded environments
- .
- High-level Python bindings (boost.python) facilitate rapid application
- development, targeting zope3, django, etc.
- .
- This package contains the Python bindings.
 
 Package: szn-mapnik-doc
 Section: doc

@@ -35,21 +35,8 @@ override_dh_auto_test:
 endif
 
 override_dh_auto_configure:
-	if [ ! -d ./bindings/python ]; then git clone git@github.com:mapycz/python-mapnik.git --recursive ./bindings/python; else (cd bindings/python && git pull && git submodule update --init); fi;
-	./configure $(SCONS_FLAGS) CUSTOM_CXXFLAGS="$(CFLAGS)" CAIRO=True HAS_PYCAIRO=True
+	./configure $(SCONS_FLAGS) CUSTOM_CXXFLAGS="$(CFLAGS)"
 	dh_auto_configure
-
-# Do no build for every possible python version until this is working properly
-# https://github.com/mapnik/mapnik-packaging/issues/3
-#override_dh_auto_build:
-#	set -e; \
-#	for PYVER in $(shell pyversions -r); do \
-#		./configure \
-#		BOOST_PYTHON_LIB=`echo $$PYVER | sed 's/python\([0-9]\).\([0-9]\)/boost_python-py\1\2/'` \
-#		PYTHON=`which $$PYVER`; \
-#	done
-#
-#	dh_auto_build
 
 override_dh_prep:
 	dh_prep -Xdebian/tmp

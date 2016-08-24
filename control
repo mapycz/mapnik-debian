@@ -114,7 +114,7 @@ Depends:
  libjpeg-dev,
  libtiff-dev,
  zlib1g-dev,
- libharfbuzz-dev,
+ szn-libharfbuzz-dev,
  libfreetype6-dev,
  libproj-dev,
  libxml2-dev,

@@ -1,3 +1,10 @@
+szn-mapnik (3:3.5.5) Seznam; urgency=low
+
+  * nested layers, layer level comp-op and opacity
+  * shadow support for building symbolizer
+
+ -- Jiri Drbalek <jiri.drbalek@firma.seznam.cz>  Thu, 25 Aug 2016 09:45:50 +0200
+
 szn-mapnik (3:3.5.4) Seznam; urgency=medium
 
   * Python 3 support

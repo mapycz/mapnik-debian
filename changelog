@@ -1,3 +1,9 @@
+szn-mapnik (3:3.5.6) Seznam; urgency=medium
+
+  * style level, layer level comp-op and opacity for Cairo renderer
+
+ -- Jiri Drbalek <jiri.drbalek@firma.seznam.cz>  Tue, 30 Aug 2016 07:17:20 +0000
+
 szn-mapnik (3:3.5.5) Seznam; urgency=low
 
   * nested layers, layer level comp-op and opacity

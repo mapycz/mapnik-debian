@@ -1,3 +1,9 @@
+szn-mapnik (3:3.5.7) Seznam; urgency=medium
+
+  * use extended path for horizontal-alignment adjust
+
+ -- Jiri Drbalek <jiri.drbalek@firma.seznam.cz>  Tue, 06 Sep 2016 12:43:58 +0000
+
 szn-mapnik (3:3.5.6) Seznam; urgency=medium
 
   * style level, layer level comp-op and opacity for Cairo renderer

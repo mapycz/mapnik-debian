@@ -1,3 +1,9 @@
+szn-mapnik (3:3.6.0~1) Seznam; urgency=medium
+
+  * merge with upstream
+
+ -- Jiri Drbalek <jiri.drbalek@firma.seznam.cz>  Wed, 21 Sep 2016 08:08:28 +0000
+
 szn-mapnik (3:3.5.7) Seznam; urgency=medium
 
   * use extended path for horizontal-alignment adjust

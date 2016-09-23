@@ -1,3 +1,9 @@
+szn-mapnik (3:3.6.0~2) Seznam; urgency=medium
+
+  * offset_converter reverted
+
+ -- Jiri Drbalek <jiri.drbalek@firma.seznam.cz>  Fri, 23 Sep 2016 11:14:24 +0000
+
 szn-mapnik (3:3.6.0~1) Seznam; urgency=medium
 
   * merge with upstream

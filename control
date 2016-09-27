@@ -120,7 +120,8 @@ Depends:
  libproj-dev,
  libxml2-dev,
  libicu-dev (>= 4.2),
- libcairo2-dev
+ libcairo2-dev,
+ libxslt-dev
 Suggests: szn-mapnik-doc
 Description: C++ toolkit for developing GIS applications (devel)
  Mapnik is an OpenSource C++ toolkit for developing GIS

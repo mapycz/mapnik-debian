@@ -1,3 +1,10 @@
+szn-mapnik (3:3.6.0~3) Seznam; urgency=low
+
+  * multiply blur radius by scale_factor
+  * take scale_factor into account when inflating buffer
+
+ -- Jiri Drbalek <jiri.drbalek@firma.seznam.cz>  Fri, 14 Oct 2016 18:15:21 +0200
+
 szn-mapnik (3:3.6.0~2) Seznam; urgency=medium
 
   * offset_converter reverted

@@ -1,3 +1,9 @@
+szn-mapnik (3:3.6.0) Seznam; urgency=medium
+
+  * scale_factor related fixes
+
+ -- Jiri Drbalek <jiri.drbalek@firma.seznam.cz>  Wed, 26 Oct 2016 08:17:41 +0000
+
 szn-mapnik (3:3.6.0~3) Seznam; urgency=low
 
   * multiply blur radius by scale_factor

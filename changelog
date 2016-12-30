@@ -1,3 +1,13 @@
+szn-mapnik (3:3.7.0~1) Seznam; urgency=medium
+
+  * all placement methods are supported by all relevant symbolizer
+  * support offsetting for grid placement
+  * margin support for marker
+  * support for keyed collision cache
+  * support for alternating grid placement
+
+ -- Jiri Drbalek <jiri.drbalek@firma.seznam.cz>  Fri, 30 Dec 2016 09:43:27 +0000
+
 szn-mapnik (3:3.6.0) Seznam; urgency=medium
 
   * scale_factor related fixes

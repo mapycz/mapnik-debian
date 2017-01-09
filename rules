@@ -8,6 +8,9 @@ export DH_VERBOSE=1
 SCONS_FLAGS= \
 CXX=g++ \
 CC=gcc \
+ENABLE_LOG=True \
+ENABLE_STATS=True \
+DEFAULT_LOG_SEVERITY=debug \
 CUSTOM_CXXFLAGS="-fvisibility-inlines-hidden -fvisibility=hidden" \
 CAIRO=True \
 COLOR_PRINT=False \

@@ -1,3 +1,11 @@
+szn-mapnik (3:3.6.0~2-stats) Seznam; urgency=low
+
+  * ENABLE_LOG=True
+  * ENABLE_STATS=True
+  * DEFAULT_LOG_SEVERITY=debug
+
+ -- Jiri Drbalek <jiri.drbalek@firma.seznam.cz>  Fri, 18 Nov 2016 12:16:25 +0100
+
 szn-mapnik (3:3.6.0~2) Seznam; urgency=medium
 
   * offset_converter reverted

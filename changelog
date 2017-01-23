@@ -1,3 +1,11 @@
+szn-mapnik (3:3.7.0~2) Seznam; urgency=medium
+
+  * grid vertex adapter: scaling lookup bitmap
+  * grid vertex adapter: fixed bounds checking
+  * grid placement: start in interior
+
+ -- Jiri Drbalek <jiri.drbalek@firma.seznam.cz>  Mon, 23 Jan 2017 12:27:09 +0000
+
 szn-mapnik (3:3.7.0~1) Seznam; urgency=medium
 
   * all placement methods are supported by all relevant symbolizer

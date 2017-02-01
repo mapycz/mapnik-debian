@@ -1,3 +1,9 @@
+szn-mapnik (3:3.7.0~4) Seznam; urgency=medium
+
+  * statically linked boost
+
+ -- Jiri Drbalek <jiri.drbalek@firma.seznam.cz>  Wed, 01 Feb 2017 13:17:51 +0000
+
 szn-mapnik (3:3.7.0~3) Seznam; urgency=medium
 
   * new collision symbolizer

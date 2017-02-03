@@ -1,10 +1,54 @@
-szn-mapnik (3:3.6.0~2-stats) Seznam; urgency=low
+szn-mapnik (3:3.7.0~5-stats) Seznam; urgency=medium
 
+  * building improvements
   * ENABLE_LOG=True
   * ENABLE_STATS=True
   * DEFAULT_LOG_SEVERITY=debug
 
- -- Jiri Drbalek <jiri.drbalek@firma.seznam.cz>  Fri, 18 Nov 2016 12:16:25 +0100
+ -- Jiri Drbalek <jiri.drbalek@firma.seznam.cz>  Fri, 03 Feb 2017 11:17:28 +0000
+
+szn-mapnik (3:3.7.0~4) Seznam; urgency=medium
+
+  * statically linked boost
+
+ -- Jiri Drbalek <jiri.drbalek@firma.seznam.cz>  Wed, 01 Feb 2017 13:17:51 +0000
+
+szn-mapnik (3:3.7.0~3) Seznam; urgency=medium
+
+  * new collision symbolizer
+
+ -- Jiri Drbalek <jiri.drbalek@firma.seznam.cz>  Mon, 30 Jan 2017 11:04:38 +0000
+
+szn-mapnik (3:3.7.0~2) Seznam; urgency=medium
+
+  * grid vertex adapter: scaling lookup bitmap
+  * grid vertex adapter: fixed bounds checking
+  * grid placement: start in interior
+
+ -- Jiri Drbalek <jiri.drbalek@firma.seznam.cz>  Mon, 23 Jan 2017 12:27:09 +0000
+
+szn-mapnik (3:3.7.0~1) Seznam; urgency=medium
+
+  * all placement methods are supported by all relevant symbolizer
+  * support offsetting for grid placement
+  * margin support for marker
+  * support for keyed collision cache
+  * support for alternating grid placement
+
+ -- Jiri Drbalek <jiri.drbalek@firma.seznam.cz>  Fri, 30 Dec 2016 09:43:27 +0000
+
+szn-mapnik (3:3.6.0) Seznam; urgency=medium
+
+  * scale_factor related fixes
+
+ -- Jiri Drbalek <jiri.drbalek@firma.seznam.cz>  Wed, 26 Oct 2016 08:17:41 +0000
+
+szn-mapnik (3:3.6.0~3) Seznam; urgency=low
+
+  * multiply blur radius by scale_factor
+  * take scale_factor into account when inflating buffer
+
+ -- Jiri Drbalek <jiri.drbalek@firma.seznam.cz>  Fri, 14 Oct 2016 18:15:21 +0200
 
 szn-mapnik (3:3.6.0~2) Seznam; urgency=medium
 

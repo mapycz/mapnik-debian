@@ -12,6 +12,8 @@ ENABLE_LOG=True \
 ENABLE_STATS=True \
 DEFAULT_LOG_SEVERITY=debug \
 CUSTOM_CXXFLAGS="-fvisibility-inlines-hidden -fvisibility=hidden" \
+BOOST_STATIC=True \
+BOOST_LIBS="/usr/lib/x86_64-linux-gnu/" \
 CAIRO=True \
 COLOR_PRINT=False \
 DEMO=True \

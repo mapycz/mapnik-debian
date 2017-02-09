@@ -24,13 +24,13 @@ ifneq (,$(findstring stats,$(DEB_BUILD_OPTIONS)))
 	CFLAGS += -DMAPNIK_STATS
 endif
 
+override_dh_auto_test:
 ifeq (,$(findstring nocheck,$(DEB_BUILD_OPTIONS)))
-override_dh_auto_test:
-else:
-override_dh_auto_test:
-	# the test suite does not 100% pass on all platforms/boost versions,
-	# but the output is useful :)
-	#make test-local || true; echo "Overall Test Exit Code: $?"
+	# The test suite passes only with specific library versions
+	# but the output can be useful.
+	make test || true
+else
+	echo "Tests disabled"
 endif
 
 override_dh_auto_configure:

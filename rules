@@ -8,7 +8,6 @@ export DH_VERBOSE=1
 SCONS_FLAGS= \
 CXX=g++ \
 CC=gcc \
-CUSTOM_CXXFLAGS="-fvisibility-inlines-hidden -fvisibility=hidden" \
 BOOST_STATIC=True \
 BOOST_LIBS="/usr/lib/x86_64-linux-gnu/" \
 CAIRO=True \

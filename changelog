@@ -1,3 +1,9 @@
+szn-mapnik (3:3.7.1~2) Seznam; urgency=medium
+
+  * libxml2 parser: allow error reports
+
+ -- Jiri Drbalek <jiri.drbalek@firma.seznam.cz>  Thu, 09 Feb 2017 16:41:08 +0000
+
 szn-mapnik (3:3.7.1~1) Seznam; urgency=medium
 
   * polygon pattern symbolizer: support custom SVG attributes

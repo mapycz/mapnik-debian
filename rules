@@ -20,6 +20,10 @@ DESTDIR=$(CURDIR)/debian/tmp PREFIX=/usr
 
 CFLAGS = -g
 
+ifneq (,$(findstring stats,$(DEB_BUILD_OPTIONS)))
+	CFLAGS += -DMAPNIK_STATS
+endif
+
 ifeq (,$(findstring nocheck,$(DEB_BUILD_OPTIONS)))
 override_dh_auto_test:
 else:

@@ -22,6 +22,10 @@ ifneq (,$(findstring stats,$(DEB_BUILD_OPTIONS)))
 	CFLAGS += -DMAPNIK_STATS
 endif
 
+ifneq (,$(findstring stats_render,$(DEB_BUILD_OPTIONS)))
+	CFLAGS += -DMAPNIK_STATS_RENDER
+endif
+
 ifneq (,$(findstring noopt,$(DEB_BUILD_OPTIONS)))
 	CFLAGS += -Og
 endif

@@ -18,7 +18,7 @@ DESTDIR=$(CURDIR)/debian/tmp PREFIX=/usr
 
 CFLAGS = -g
 
-ifneq (,$(findstring stats,$(DEB_BUILD_OPTIONS)))
+ifneq (,$(findstring stats_basic,$(DEB_BUILD_OPTIONS)))
 	CFLAGS += -DMAPNIK_STATS
 endif
 

@@ -1,3 +1,9 @@
+szn-mapnik (3:3.7.3) Seznam; urgency=medium
+
+  * distinct clipping strategy for line placement
+
+ -- Jiri Drbalek <jiri.drbalek@firma.seznam.cz>  Mon, 20 Feb 2017 13:34:03 +0000
+
 szn-mapnik (3:3.7.2) Seznam; urgency=medium
 
   * patterns: new spacing and lacing options

@@ -1,3 +1,10 @@
+szn-mapnik (3:3.7.4) Seznam; urgency=medium
+
+  * text rendering optimization: skip rendering of text beyond collision
+    extent
+
+ -- Jiri Drbalek <jiri.drbalek@firma.seznam.cz>  Wed, 22 Mar 2017 15:05:20 +0000
+
 szn-mapnik (3:3.7.3) Seznam; urgency=medium
 
   * distinct clipping strategy for line placement

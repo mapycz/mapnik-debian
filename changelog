@@ -1,3 +1,9 @@
+szn-mapnik (3:3.7.5) Seznam; urgency=medium
+
+  * polygon pattern: add spacing-x and spacing-y params
+
+ -- Jiri Drbalek <jiri.drbalek@firma.seznam.cz>  Tue, 18 Apr 2017 20:11:35 +0000
+
 szn-mapnik (3:3.7.4) Seznam; urgency=medium
 
   * text rendering optimization: skip rendering of text beyond collision

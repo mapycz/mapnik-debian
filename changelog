@@ -1,3 +1,9 @@
+szn-mapnik (3:3.7.6) Seznam; urgency=medium
+
+  * polygon pattern: fix deformation of small patterns
+
+ -- Jiri Drbalek <jiri.drbalek@firma.seznam.cz>  Thu, 20 Apr 2017 07:59:48 +0000
+
 szn-mapnik (3:3.7.5) Seznam; urgency=medium
 
   * polygon pattern: add spacing-x and spacing-y params

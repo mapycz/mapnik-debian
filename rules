@@ -6,7 +6,6 @@ export DH_VERBOSE=1
 SCONS_FLAGS= \
 CXX=g++ \
 CC=gcc \
-BOOST_STATIC=True \
 BOOST_LIBS="/usr/lib/x86_64-linux-gnu/" \
 CAIRO=True \
 COLOR_PRINT=False \

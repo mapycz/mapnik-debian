@@ -1,3 +1,9 @@
+szn-mapnik (3:3.7.5) Seznam; urgency=medium
+
+  * merge with upstream
+
+ -- Jiri Drbalek <jiri.drbalek@firma.seznam.cz>  Wed, 10 May 2017 07:37:04 +0000
+
 szn-mapnik (3:3.7.4) Seznam; urgency=medium
 
   * text rendering optimization: skip rendering of text beyond collision

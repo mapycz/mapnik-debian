@@ -10,8 +10,8 @@ BOOST_LIBS="/usr/lib/x86_64-linux-gnu/" \
 CAIRO=True \
 COLOR_PRINT=False \
 DEMO=True \
-SVG_RENDERER = True \
-PGSQL2SQLITE = True \
+SVG_RENDERER=True \
+PGSQL2SQLITE=True \
 SYSTEM_FONTS=/usr/share/fonts/truetype \
 DESTDIR=$(CURDIR)/debian/tmp PREFIX=/usr
 

@@ -12,6 +12,8 @@ COLOR_PRINT=False \
 DEMO=True \
 SVG_RENDERER=True \
 PGSQL2SQLITE=True \
+ENABLE_LOG=True \
+DEFAULT_LOG_SEVERITY=debug \
 SYSTEM_FONTS=/usr/share/fonts/truetype \
 DESTDIR=$(CURDIR)/debian/tmp PREFIX=/usr
 

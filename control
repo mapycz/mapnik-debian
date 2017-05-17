@@ -26,7 +26,8 @@ Build-Depends:
  libcairo2-dev,
  libsqlite3-dev,
  libcurl4-gnutls-dev,
- libxslt-dev
+ libxslt-dev,
+ szn-libmapbox-variant-dev (>= 1.1.5)
 Standards-Version: 3.8.4
 Section: libs
 XS-Python-Version: >= 2.5
@@ -112,7 +113,8 @@ Depends:
  libxml2-dev,
  libicu-dev (>= 4.2),
  libcairo2-dev,
- libxslt-dev
+ libxslt-dev,
+ szn-libmapbox-variant-dev (>= 1.1.5)
 Suggests: szn-mapnik-doc
 Description: C++ toolkit for developing GIS applications (devel)
  Mapnik is an OpenSource C++ toolkit for developing GIS

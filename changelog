@@ -1,3 +1,10 @@
+szn-mapnik (3:3.7.8) Seznam; urgency=medium
+
+  * bump version to keep sync with python-mapnik
+  * no functional changes
+
+ -- Jiri Drbalek <jiri.drbalek@firma.seznam.cz>  Fri, 26 May 2017 13:14:46 +0000
+
 szn-mapnik (3:3.7.7) Seznam; urgency=medium
 
   * expect mapbox::variant installed in the system

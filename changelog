@@ -1,3 +1,10 @@
+szn-mapnik (3:3.7.9) Seznam; urgency=medium
+
+  * bump version to keep sync with python-mapnik
+  * no functional changes
+
+ -- Jiri Drbalek <jiri.drbalek@firma.seznam.cz>  Wed, 31 May 2017 12:31:30 +0000
+
 szn-mapnik (3:3.7.8) Seznam; urgency=medium
 
   * bump version to keep sync with python-mapnik

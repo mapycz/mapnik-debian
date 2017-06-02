@@ -1,3 +1,9 @@
+szn-mapnik (3:3.7.10) Seznam; urgency=medium
+
+  * fixed: layers should be composited with zero offset
+
+ -- Jiri Drbalek <jiri.drbalek@firma.seznam.cz>  Fri, 02 Jun 2017 15:03:39 +0000
+
 szn-mapnik (3:3.7.9) Seznam; urgency=medium
 
   * bump version to keep sync with python-mapnik

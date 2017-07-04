@@ -1,3 +1,9 @@
+szn-mapnik (3:3.7.11) Seznam; urgency=medium
+
+  * color font support
+
+ -- Jiri Drbalek <jiri.drbalek@firma.seznam.cz>  Tue, 04 Jul 2017 11:26:16 +0000
+
 szn-mapnik (3:3.7.10) Seznam; urgency=medium
 
   * fixed: layers should be composited with zero offset

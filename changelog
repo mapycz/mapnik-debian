@@ -1,3 +1,9 @@
+szn-mapnik (3:3.7.12) Seznam; urgency=medium
+
+  * fix text halo with bitmap fonts on AGG renderer
+
+ -- Jiri Drbalek <jiri.drbalek@firma.seznam.cz>  Wed, 12 Jul 2017 13:47:49 +0000
+
 szn-mapnik (3:3.7.11) Seznam; urgency=medium
 
   * color font support

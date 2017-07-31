@@ -20,7 +20,7 @@ Build-Depends:
  libfreetype6-dev,
  libpq-dev,
  libproj-dev,
- libgdal-dev,
+ libgdal-dev (>= 2.1),
  libxml2-dev,
  libicu-dev (>= 4.2),
  libcairo2-dev,

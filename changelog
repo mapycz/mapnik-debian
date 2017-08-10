@@ -1,3 +1,9 @@
+szn-mapnik (3:3.7.13) Seznam; urgency=medium
+
+  * fix transform order to prevent multiple application of scale factor
+
+ -- Jiri Drbalek <jiri.drbalek@firma.seznam.cz>  Thu, 10 Aug 2017 11:37:13 +0000
+
 szn-mapnik (3:3.7.12) Seznam; urgency=medium
 
   * fix text halo with bitmap fonts on AGG renderer

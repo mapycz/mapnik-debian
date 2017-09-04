@@ -1,3 +1,10 @@
+szn-mapnik (3:3.8.1) Seznam; urgency=medium
+
+  * bump version to keep sync with python-mapnik
+  * no functional changes
+
+ -- Jiri Drbalek <jiri.drbalek@firma.seznam.cz>  Mon, 04 Sep 2017 12:08:05 +0000
+
 szn-mapnik (3:3.8.0) Seznam; urgency=medium
 
   * color font support improvements

@@ -3,7 +3,7 @@ Priority: optional
 Maintainer: Jiri Drbalek <jiri.drbalek@firma.seznam.cz>
 Uploaders: Jiri Drbalek <jiri.drbalek@firma.seznam.cz>
 Build-Depends:
- szn-g++-4.9 (>=4.9.1-001),
+ szn-gcc-6.4,
  make,
  debhelper (>= 7.0.50~),
  libboost-thread1.55-dev (= 1.55.0+dfsg-3.1),

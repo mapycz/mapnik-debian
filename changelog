@@ -1,3 +1,10 @@
+szn-mapnik (3:3.8.4~stats-1) Seznam; urgency=medium
+
+  * fixed text and shield clipping on tile edge
+  * switch to szn-gcc-6.4
+
+ -- Jiri Drbalek <jiri.drbalek@firma.seznam.cz>  Tue, 17 Oct 2017 12:27:12 +0200
+
 szn-mapnik (3:3.8.3~stats-1) Seznam; urgency=medium
 
   * check duplicate style name

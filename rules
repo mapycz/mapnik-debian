@@ -6,7 +6,7 @@ export DH_VERBOSE=1
 SCONS_FLAGS= \
 CXX=/opt/szn/gcc-6.4/bin/g++ \
 CC=/opt/szn/gcc-6.4/bin/gcc \
-CUSTOM_LDFLAGS="-L/opt/szn/gcc-6.4/lib64 -static-libstdc++" \
+CUSTOM_LDFLAGS="-L/opt/szn/gcc-6.4/lib64 -static-libstdc++ -Wl,--version-script=debian/mapnik.lds" \
 BOOST_STATIC=True \
 BOOST_LIBS="/usr/lib/x86_64-linux-gnu/" \
 FREETYPE_INCLUDES=/opt/szn/include/freetype2 \

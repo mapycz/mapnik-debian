@@ -3,6 +3,11 @@
 
 export DH_VERBOSE=1
 
+# For tests
+export GDAL_DATA=/usr/share/gdal/2.1
+export PROJ_LIB=/usr/share/proj
+export ICU_DATA=/usr/share/icu/52.1
+
 SCONS_FLAGS= \
 CXX=/opt/szn/gcc-6.4/bin/g++ \
 CC=/opt/szn/gcc-6.4/bin/gcc \

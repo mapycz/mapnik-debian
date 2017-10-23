@@ -1,3 +1,10 @@
+szn-mapnik (3:3.8.4-1~stats-1) Seznam; urgency=medium
+
+  * symbols from statically linked stdlibc++ made hidden
+  * used compatible C++ ABI with GCC 4.9 from jessie
+
+ -- Jiri Drbalek <jiri.drbalek@firma.seznam.cz>  Mon, 23 Oct 2017 10:18:13 +0200
+
 szn-mapnik (3:3.8.4~stats-1) Seznam; urgency=medium
 
   * fixed text and shield clipping on tile edge

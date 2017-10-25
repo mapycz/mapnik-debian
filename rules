@@ -9,9 +9,8 @@ export PROJ_LIB=/usr/share/proj
 export ICU_DATA=/usr/share/icu/52.1
 
 SCONS_FLAGS= \
-CXX=/opt/szn/gcc-6.4/bin/g++ \
-CC=/opt/szn/gcc-6.4/bin/gcc \
-CUSTOM_LDFLAGS="-L/opt/szn/gcc-6.4/lib64 -static-libstdc++" \
+CXX=g++ \
+CC=gcc \
 BOOST_STATIC=True \
 BOOST_LIBS="/usr/lib/x86_64-linux-gnu/" \
 CAIRO=True \
@@ -22,7 +21,7 @@ PGSQL2SQLITE = True \
 SYSTEM_FONTS=/usr/share/fonts/truetype \
 DESTDIR=$(CURDIR)/debian/tmp PREFIX=/usr
 
-CFLAGS = -g -D_GLIBCXX_USE_CXX11_ABI=0
+CFLAGS = -g
 
 ifneq (,$(findstring stats_basic,$(DEB_BUILD_OPTIONS)))
 	CFLAGS += -DMAPNIK_STATS

@@ -1,3 +1,9 @@
+szn-mapnik (3:3.8.8) Seznam; urgency=medium
+
+  * back to system GCC
+
+ -- Jiri Drbalek <jiri.drbalek@firma.seznam.cz>  Wed, 25 Oct 2017 22:26:05 +0200
+
 szn-mapnik (3:3.8.7) Seznam; urgency=medium
 
   * hopefully the final try with GCC 6.

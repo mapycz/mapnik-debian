@@ -19,7 +19,7 @@ PGSQL2SQLITE=True \
 SYSTEM_FONTS=/usr/share/fonts/truetype \
 DESTDIR=$(CURDIR)/debian/tmp PREFIX=/usr
 
-CFLAGS = -g -D_GLIBCXX_USE_CXX11_ABI=0 -fabi-version=8
+CFLAGS = -g -D_GLIBCXX_USE_CXX11_ABI=0
 
 ifneq (,$(findstring stats_basic,$(DEB_BUILD_OPTIONS)))
 	CFLAGS += -DMAPNIK_STATS

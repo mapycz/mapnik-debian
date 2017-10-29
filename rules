@@ -4,9 +4,8 @@
 export DH_VERBOSE=1
 
 SCONS_FLAGS= \
-CXX=/opt/szn/gcc-6.4/bin/g++ \
-CC=/opt/szn/gcc-6.4/bin/gcc \
-CUSTOM_LDFLAGS="-L/opt/szn/gcc-6.4/lib64 -static-libstdc++" \
+CXX=/opt/szn/bin/g++-4.9 \
+CC=/opt/szn/bin/gcc-4.9 \
 BOOST_STATIC=True \
 BOOST_LIBS="/usr/lib/x86_64-linux-gnu/" \
 FREETYPE_INCLUDES=/opt/szn/include/freetype2 \
@@ -19,7 +18,7 @@ PGSQL2SQLITE=True \
 SYSTEM_FONTS=/usr/share/fonts/truetype \
 DESTDIR=$(CURDIR)/debian/tmp PREFIX=/usr
 
-CFLAGS = -g -D_GLIBCXX_USE_CXX11_ABI=0
+CFLAGS = -g
 
 ifneq (,$(findstring stats_basic,$(DEB_BUILD_OPTIONS)))
 	CFLAGS += -DMAPNIK_STATS

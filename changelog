@@ -1,3 +1,11 @@
+szn-mapnik (3:3.9.0) Seznam; urgency=medium
+
+  * merge with upstream/v3.0.x
+    * raster I/O improvements
+    * fixed handling of closing segment by interior and centroid algorithms
+
+ -- Jiri Drbalek <jiri.drbalek@firma.seznam.cz>  Wed, 15 Nov 2017 10:24:42 +0100
+
 szn-mapnik (3:3.8.8) Seznam; urgency=medium
 
   * back to system GCC

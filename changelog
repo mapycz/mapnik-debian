@@ -1,3 +1,9 @@
+szn-mapnik (3:3.9.1~stats-2) Seznam; urgency=low
+
+  * logging improvement
+
+ -- Jiri Drbalek <jiri.drbalek@firma.seznam.cz>  Mon, 04 Dec 2017 17:20:39 +0100
+
 szn-mapnik (3:3.9.1~stats-1) Seznam; urgency=medium
 
   * fixed nested layers (https://github.com/mapnik/mapnik/pull/3474)

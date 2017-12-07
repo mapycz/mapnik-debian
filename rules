@@ -4,9 +4,9 @@
 #export DH_VERBOSE=1
 
 # For tests
-export GDAL_DATA=/usr/share/gdal/2.1
+export GDAL_DATA=$(shell gdal-config --datadir)
 export PROJ_LIB=/usr/share/proj
-export ICU_DATA=/usr/share/icu/52.1
+export ICU_DATA=$(shell icu-config --icudatadir)
 
 SCONS_FLAGS= \
 CXX=g++ \

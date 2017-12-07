@@ -1,7 +1,7 @@
 #!/usr/bin/make -f
 # -*- makefile -*-
 
-export DH_VERBOSE=1
+#export DH_VERBOSE=1
 
 # For tests
 export GDAL_DATA=/usr/share/gdal/2.1

@@ -1,3 +1,9 @@
+szn-mapnik (3:3.8.8-4) Seznam; urgency=medium
+
+  * gdal: mmap external file with overviews
+
+ -- Jiri Drbalek <jiri.drbalek@firma.seznam.cz>  Tue, 02 Jan 2018 13:21:22 +0100
+
 szn-mapnik (3:3.8.8-3) Seznam; urgency=medium
 
   * reverted: guard gdal I/O by an interprocess mutex

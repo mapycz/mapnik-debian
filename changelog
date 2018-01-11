@@ -1,3 +1,12 @@
+szn-mapnik (3:3.9.4~stats-1) Seznam; urgency=medium
+
+  * gdal: tiff memory mapping
+  * gdal: fix overviews
+  * svg: ignore clipPath
+  * fix race condition on exsltRegisterAll()
+
+ -- Jiri Drbalek <jiri.drbalek@firma.seznam.cz>  Thu, 11 Jan 2018 13:55:06 +0100
+
 szn-mapnik (3:3.9.1~stats-2) Seznam; urgency=low
 
   * logging improvement

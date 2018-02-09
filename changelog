@@ -1,3 +1,10 @@
+szn-mapnik (3:3.9.5) Seznam; urgency=medium
+
+  * Optional parallel datasource initialization
+  * Fixed SVG pattern image size calculation potentially leading to a crash
+
+ -- Jiri Drbalek <jiri.drbalek@firma.seznam.cz>  Fri, 09 Feb 2018 09:55:03 +0100
+
 szn-mapnik (3:3.9.4) Seznam; urgency=medium
 
   * gdal: tiff memory mapping

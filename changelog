@@ -1,3 +1,9 @@
+szn-mapnik (3:3.9.7) Seznam; urgency=medium
+
+  * New scaling method of RasterSymbolizer bilinear-fast
+
+ -- Jiri Drbalek <jiri.drbalek@firma.seznam.cz>  Tue, 27 Feb 2018 10:55:19 +0100
+
 szn-mapnik (3:3.9.6) Seznam; urgency=medium
 
   * New Map option buffer-size-collisions

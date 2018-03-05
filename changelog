@@ -1,3 +1,14 @@
+szn-mapnik (3:3.9.8) Seznam; urgency=medium
+
+  * Thread save ConnectionManager::registerPool fixes crash during
+    datasource initialization.
+  * GDAL: Memory mapped tiff must be registered under unique name as
+    virtual memory file. Fixes crash when multiple virtual memory files
+    were registered under the same name, overwriting each other.
+  * Query extent now clipped by maximum-extent of the Layer.
+
+ -- Jiri Drbalek <jiri.drbalek@firma.seznam.cz>  Mon, 05 Mar 2018 22:37:19 +0100
+
 szn-mapnik (3:3.9.7) Seznam; urgency=medium
 
   * New scaling method of RasterSymbolizer bilinear-fast

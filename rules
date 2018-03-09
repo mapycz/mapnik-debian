@@ -23,11 +23,11 @@ DESTDIR=$(CURDIR)/debian/tmp PREFIX=/usr
 CFLAGS = -g
 
 ifneq (,$(findstring stats_basic,$(DEB_BUILD_OPTIONS)))
-	CFLAGS += -DMAPNIK_STATS
+	SCONS_FLAGS += ENABLE_STATS=True
 endif
 
 ifneq (,$(findstring stats_render,$(DEB_BUILD_OPTIONS)))
-	CFLAGS += -DMAPNIK_STATS_RENDER
+	SCONS_FLAGS += ENABLE_STATS_RENDER=True
 endif
 
 ifneq (,$(findstring noopt,$(DEB_BUILD_OPTIONS)))

@@ -1,3 +1,10 @@
+szn-mapnik (3:3.9.9) Seznam; urgency=medium
+
+  * Polygon symbolizer is now using filling rule for polygons that respects
+    winding order.
+
+ -- Jiri Drbalek <jiri.drbalek@firma.seznam.cz>  Mon, 12 Mar 2018 14:07:37 +0100
+
 szn-mapnik (3:3.9.8) Seznam; urgency=medium
 
   * Thread save ConnectionManager::registerPool fixes crash during

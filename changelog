@@ -1,3 +1,9 @@
+szn-mapnik (3:3.9.10) Seznam; urgency=medium
+
+  * Parallel implementation of scaling and agg-stack-blur for rasters >= 1024x1024
+
+ -- Jiri Drbalek <jiri.drbalek@firma.seznam.cz>  Fri, 16 Mar 2018 16:37:04 +0100
+
 szn-mapnik (3:3.9.9) Seznam; urgency=medium
 
   * Polygon symbolizer is now using filling rule for polygons that respects

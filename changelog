@@ -1,3 +1,10 @@
+szn-mapnik (3:3.9.16) Seznam; urgency=medium
+
+  * Fixed image.painted() with nested layers and compositions
+  * Parallelizer: fixed image.painted() with parallelization
+
+ -- Jiri Drbalek <jiri.drbalek@firma.seznam.cz>  Tue, 10 Apr 2018 17:00:05 +0200
+
 szn-mapnik (3:3.9.15) Seznam; urgency=medium
 
   * Parallelizer: fixed handling of top layer comp-op

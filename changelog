@@ -1,3 +1,9 @@
+szn-mapnik (3:3.9.17) Seznam; urgency=medium
+
+  * Fixed placement-type 'angle' when anchor-key not set
+
+ -- Jiri Drbalek <jiri.drbalek@firma.seznam.cz>  Wed, 25 Apr 2018 13:07:51 +0200
+
 szn-mapnik (3:3.9.16) Seznam; urgency=medium
 
   * Fixed image.painted() with nested layers and compositions

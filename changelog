@@ -1,3 +1,9 @@
+szn-mapnik (3:3.9.18) Seznam; urgency=medium
+
+  * Polygon pattern: fixed scale-factor for spacing
+
+ -- Jiri Drbalek <jiri.drbalek@firma.seznam.cz>  Thu, 26 Apr 2018 07:49:17 +0200
+
 szn-mapnik (3:3.9.17) Seznam; urgency=medium
 
   * Fixed placement-type 'angle' when anchor-key not set

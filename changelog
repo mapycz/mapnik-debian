@@ -1,3 +1,9 @@
+szn-mapnik (3:3.9.19) Seznam; urgency=medium
+
+  * postgis: Exclude password from connection creator id
+
+ -- Jiri Drbalek <jiri.drbalek@firma.seznam.cz>  Thu, 03 May 2018 10:41:22 +0200
+
 szn-mapnik (3:3.9.18) Seznam; urgency=medium
 
   * Polygon pattern: fixed scale-factor for spacing

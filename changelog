@@ -1,3 +1,9 @@
+szn-mapnik (3:3.9.21) Seznam; urgency=medium
+
+  * Default filter-factor for bilinear-fast is 1.0
+
+ -- Jiri Drbalek <jiri.drbalek@firma.seznam.cz>  Tue, 15 May 2018 12:18:51 +0200
+
 szn-mapnik (3:3.9.20) Seznam; urgency=medium
 
   * Parallelizer: Fixed processing of disabled top layers.

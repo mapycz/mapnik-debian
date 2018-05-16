@@ -1,3 +1,9 @@
+szn-mapnik (3:3.9.22) Seznam; urgency=medium
+
+  * Map size limits for Map::resize() has been removed
+
+ -- Jiri Drbalek <jiri.drbalek@firma.seznam.cz>  Wed, 16 May 2018 16:41:02 +0200
+
 szn-mapnik (3:3.9.21) Seznam; urgency=medium
 
   * Default filter-factor for bilinear-fast is 1.0

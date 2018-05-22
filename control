@@ -23,10 +23,10 @@ Build-Depends:
  libgdal-dev (>= 2.1),
  libxml2-dev,
  libicu-dev (>= 4.2),
- libcairo2-dev,
  libsqlite3-dev,
  libcurl4-gnutls-dev,
  libxslt-dev,
+ szn-libcairo,
  szn-libmapbox-variant-dev (>= 1.1.5)
 Standards-Version: 3.8.4
 Section: libs
@@ -111,8 +111,8 @@ Depends:
  libproj-dev,
  libxml2-dev,
  libicu-dev (>= 4.2),
- libcairo2-dev,
  libxslt-dev,
+ szn-libcairo,
  szn-libmapbox-variant-dev (>= 1.1.5)
 Suggests: szn-mapnik-doc
 Description: C++ toolkit for developing GIS applications (devel)

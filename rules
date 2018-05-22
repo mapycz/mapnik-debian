@@ -8,12 +8,15 @@ export GDAL_DATA=$(shell gdal-config --datadir)
 export PROJ_LIB=/usr/share/proj
 export ICU_DATA=$(shell icu-config --icudatadir)
 
+SZN_CAIRO_LIBS=/opt/szn/cairo/lib/x86_64-linux-gnu
+
 SCONS_FLAGS= \
 CXX=g++ \
 CC=gcc \
 BOOST_LIBS=/usr/lib/x86_64-linux-gnu \
 CAIRO=True \
-COLOR_PRINT=False \
+CAIRO_INCLUDES=/opt/szn/cairo/include \
+CAIRO_LIBS=$(SZN_CAIRO_LIBS) \
 DEMO=True \
 SVG_RENDERER=True \
 PGSQL2SQLITE=True \
@@ -43,8 +46,11 @@ else
 	echo "Tests disabled"
 endif
 
+CUSTOM_LDFLAGS=-Wl,-rpath=$(SZN_CAIRO_LIBS)
+
 override_dh_auto_configure:
-	./configure $(SCONS_FLAGS) CUSTOM_CXXFLAGS="$(CFLAGS)"
+	./configure $(SCONS_FLAGS) CUSTOM_CXXFLAGS="$(CFLAGS)" \
+        CUSTOM_LDFLAGS="$(CUSTOM_LDFLAGS)"
 	dh_auto_configure
 
 override_dh_prep:

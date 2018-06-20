@@ -1,3 +1,9 @@
+szn-mapnik (3:3.9.26) Seznam; urgency=medium
+
+  * correct_converter compiled conditionally, not by default
+
+ -- Jiri Drbalek <jiri.drbalek@firma.seznam.cz>  Wed, 20 Jun 2018 16:42:15 +0200
+
 szn-mapnik (3:3.9.25) Seznam; urgency=medium
 
   * Allows polygon clipping on reprojection

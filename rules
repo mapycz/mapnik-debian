@@ -9,11 +9,14 @@ export PROJ_LIB=/usr/share/proj
 export ICU_DATA=$(shell icu-config --icudatadir)
 
 SZN_CAIRO_LIBS=/opt/szn/cairo/lib/x86_64-linux-gnu
+SZN_FREETYPE_LIBS=/opt/szn/freetype/lib/x86_64-linux-gnu
 
 SCONS_FLAGS= \
 CXX=g++ \
 CC=gcc \
 BOOST_LIBS=/usr/lib/x86_64-linux-gnu \
+FREETYPE_INCLUDES=/opt/szn/freetype/include/freetype2 \
+FREETYPE_LIBS=$(SZN_FREETYPE_LIBS) \
 CAIRO=True \
 CAIRO_INCLUDES=/opt/szn/cairo/include \
 CAIRO_LIBS=$(SZN_CAIRO_LIBS) \
@@ -46,7 +49,7 @@ else
 	echo "Tests disabled"
 endif
 
-CUSTOM_LDFLAGS=-Wl,-rpath=$(SZN_CAIRO_LIBS)
+CUSTOM_LDFLAGS=-Wl,-rpath=$(SZN_CAIRO_LIBS) -Wl,-rpath=$(SZN_FREETYPE_LIBS)
 
 override_dh_auto_configure:
 	./configure $(SCONS_FLAGS) CUSTOM_CXXFLAGS="$(CFLAGS)" \

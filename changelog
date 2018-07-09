@@ -1,3 +1,10 @@
+szn-mapnik (3:3.9.27) Seznam; urgency=medium
+
+  * parallelizer: scale_factor on layer level
+  * rgba8_to_cairo_image() for conversion from Mapnik image to Cairo surface
+
+ -- Jiri Drbalek <jiri.drbalek@firma.seznam.cz>  Mon, 09 Jul 2018 16:34:37 +0200
+
 szn-mapnik (3:3.9.26) Seznam; urgency=medium
 
   * correct_converter compiled conditionally, not by default

@@ -1,3 +1,12 @@
+szn-mapnik (3:3.9.28) Seznam; urgency=medium
+
+  * parallelizer: Optionaly constrain layer level scale-factor
+    by min/max scale denominator
+  * Enable polygon contour also on Cairo and Grid backends
+  * rgba8_to_cairo_image: Mark surface as dirty after the conversion
+
+ -- Jiri Drbalek <jiri.drbalek@firma.seznam.cz>  Wed, 11 Jul 2018 16:11:09 +0200
+
 szn-mapnik (3:3.9.27) Seznam; urgency=medium
 
   * parallelizer: scale_factor on layer level

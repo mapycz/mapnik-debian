@@ -1,3 +1,12 @@
+szn-mapnik (3:3.9.31) Seznam; urgency=medium
+
+  * Fix buffer-size with scale-factor
+  * Log with rendering statistics synchronized for readable parallel rendering
+  * New environment variable MAPNIK_STATS_RENDER for controlling
+    logging of render statistics
+
+ -- Jiri Drbalek <jiri.drbalek@firma.seznam.cz>  Wed, 01 Aug 2018 16:49:59 +0200
+
 szn-mapnik (3:3.9.30) Seznam; urgency=medium
 
   * Version bump

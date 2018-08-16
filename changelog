@@ -1,3 +1,12 @@
+szn-mapnik (3:3.9.32) Seznam; urgency=medium
+
+  * Support filter bilinear-fast in image warping
+  * proj_transform: fixed bbox reprojection
+  * Fixed seams of mesh blocks when warping transparent raster
+  * Optimized building symbolizer when fill-opacity="0"
+
+ -- Jiri Drbalek <jiri.drbalek@firma.seznam.cz>  Thu, 16 Aug 2018 15:39:23 +0200
+
 szn-mapnik (3:3.9.31) Seznam; urgency=medium
 
   * Fix buffer-size with scale-factor

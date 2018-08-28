@@ -1,3 +1,9 @@
+szn-mapnik (3:3.9.33) Seznam; urgency=medium
+
+  * Optimized path for compositing text with src-over
+
+ -- Jiri Drbalek <jiri.drbalek@firma.seznam.cz>  Tue, 28 Aug 2018 16:58:43 +0200
+
 szn-mapnik (3:3.9.32) Seznam; urgency=medium
 
   * Support filter bilinear-fast in image warping

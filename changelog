@@ -1,3 +1,10 @@
+szn-mapnik (3:3.9.36) Seznam; urgency=medium
+
+  * Fixed pattern alignment
+  * Fixed rasterization of pattern image in AGG backend
+
+ -- Jiri Drbalek <jiri.drbalek@firma.seznam.cz>  Mon, 17 Sep 2018 12:59:29 +0200
+
 szn-mapnik (3:3.9.35) Seznam; urgency=medium
 
   * Version bump (update of python-mapnik)

@@ -1,3 +1,9 @@
+szn-mapnik (3:3.10.1) Seznam; urgency=medium
+
+  * cairo: New option for rendering text as outlines
+
+ -- Jiri Drbalek <jiri.drbalek@firma.seznam.cz>  Tue, 09 Oct 2018 09:46:44 +0200
+
 szn-mapnik (3:3.10.0) Seznam; urgency=medium
 
   * New placement="line-max-angle"

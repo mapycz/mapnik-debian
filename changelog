@@ -1,3 +1,10 @@
+szn-mapnik (3:3.10.3) Seznam; urgency=medium
+
+  * Markers symbolizer: add minimum-path-length option, better placements on short paths
+  * New compositing method grain-merge-over
+
+ -- Jiri Drbalek <jiri.drbalek@firma.seznam.cz>  Fri, 18 Jan 2019 11:39:24 +0100
+
 szn-mapnik (3:3.10.2) Seznam; urgency=medium
 
   * Text symbolizer: Allow <Placement collision-cache-detect="..." />

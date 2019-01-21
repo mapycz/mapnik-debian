@@ -1,3 +1,9 @@
+szn-mapnik (3:3.10.4) Seznam; urgency=medium
+
+  * New compositing method grain-merge-soft-alpha as a replacement of grain-merge-over
+
+ -- Jiri Drbalek <jiri.drbalek@firma.seznam.cz>  Mon, 21 Jan 2019 14:32:33 +0100
+
 szn-mapnik (3:3.10.3) Seznam; urgency=medium
 
   * Markers symbolizer: add minimum-path-length option, better placements on short paths

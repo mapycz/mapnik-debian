@@ -1,3 +1,11 @@
+szn-mapnik (3:3.10.5) Seznam; urgency=medium
+
+  * GDALOpenShared() fixed by using global register for mmapped tiffs
+  * New comp-ops grain-merge-gimp and grain-merge-gimp-darker
+    as a replacement of grain-merge-soft-alpha
+
+ -- Jiri Drbalek <jiri.drbalek@firma.seznam.cz>  Mon, 11 Feb 2019 23:50:16 +0100
+
 szn-mapnik (3:3.10.4) Seznam; urgency=medium
 
   * New compositing method grain-merge-soft-alpha as a replacement of grain-merge-over

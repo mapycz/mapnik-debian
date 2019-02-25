@@ -1,3 +1,11 @@
+szn-mapnik (3:3.10.6) Seznam; urgency=medium
+
+  * Fixed compilation with GCC 4.9
+  * Gamma options on text and shield symbolizer
+  * Fixed stroke-gamma on markers symbolizer
+
+ -- Jiri Drbalek <jiri.drbalek@firma.seznam.cz>  Mon, 25 Feb 2019 15:19:41 +0100
+
 szn-mapnik (3:3.10.5) Seznam; urgency=medium
 
   * GDALOpenShared() fixed by using global register for mmapped tiffs

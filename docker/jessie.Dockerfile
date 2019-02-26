@@ -61,3 +61,7 @@ RUN apt-get update && \
             szn-mapnik-vector-tile-dev \
             fonts-dejavu \
             sudo
+
+COPY build.sh /
+
+ENTRYPOINT /build.sh

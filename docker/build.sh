@@ -8,19 +8,19 @@ cd /mapnik
 
 dpkg-buildpackage
 
-mkdir -p pkgs
-mv ../*.deb pkgs
+mv ../*.deb /pkgs
 
-dpkg -i /mapnik/pkgs/*.deb
+dpkg -i /pkgs/*.deb
 
 apt install szn-mapnik-vector-tile-dev
 
 export JOBS=8
+export MAPNIK_POSTGIS_TESTS=f
+export MAPNIK_VISUAL_TESTS=f
 
 cd /python-mapnik
 
 dpkg-buildpackage
 
-mkdir -p pkgs
-mv ../*.deb pkgs
+mv ../*.deb /pkgs
 

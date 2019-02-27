@@ -1,3 +1,9 @@
+szn-mapnik (3:3.10.7) Seznam; urgency=medium
+
+  * Better implementation of gamma on texts and shields
+
+ -- Jiri Drbalek <jiri.drbalek@firma.seznam.cz>  Wed, 27 Feb 2019 10:10:36 +0100
+
 szn-mapnik (3:3.10.6) Seznam; urgency=medium
 
   * Fixed compilation with GCC 4.9

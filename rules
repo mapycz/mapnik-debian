@@ -27,7 +27,7 @@ SYSTEM_FONTS=/usr/share/fonts/truetype \
 DESTDIR=$(CURDIR)/debian/tmp PREFIX=/usr
 
 CFLAGS = -g -Og
-SCONS_FLAGS += ENABLE_STATS=True
+#SCONS_FLAGS += ENABLE_STATS=True
 SCONS_FLAGS += ENABLE_STATS_RENDER=True
 
 override_dh_auto_test:

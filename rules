@@ -26,7 +26,7 @@ PGSQL2SQLITE=True \
 SYSTEM_FONTS=/usr/share/fonts/truetype \
 DESTDIR=$(CURDIR)/debian/tmp PREFIX=/usr
 
-CFLAGS = -g -DMAPNIK_POSTGIS_PLUGIN_MAX_SIZE=500
+CFLAGS = -g
 
 ifneq (,$(findstring stats_basic,$(DEB_BUILD_OPTIONS)))
 	SCONS_FLAGS += ENABLE_STATS=True

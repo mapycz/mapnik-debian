@@ -26,19 +26,9 @@ PGSQL2SQLITE=True \
 SYSTEM_FONTS=/usr/share/fonts/truetype \
 DESTDIR=$(CURDIR)/debian/tmp PREFIX=/usr
 
-CFLAGS = -g
-
-ifneq (,$(findstring stats_basic,$(DEB_BUILD_OPTIONS)))
-	SCONS_FLAGS += ENABLE_STATS=True
-endif
-
-ifneq (,$(findstring stats_render,$(DEB_BUILD_OPTIONS)))
-	SCONS_FLAGS += ENABLE_STATS_RENDER=True
-endif
-
-ifneq (,$(findstring noopt,$(DEB_BUILD_OPTIONS)))
-	CFLAGS += -Og
-endif
+CFLAGS = -g -Og
+SCONS_FLAGS += ENABLE_STATS=True
+SCONS_FLAGS += ENABLE_STATS_RENDER=True
 
 override_dh_auto_test:
 ifeq (,$(findstring nocheck,$(DEB_BUILD_OPTIONS)))

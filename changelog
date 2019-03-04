@@ -1,3 +1,11 @@
+szn-mapnik (3:3.10.8) Seznam; urgency=medium
+
+  * New connection pool that can wait for free connection
+  * New text symbolizer option text-mode="mono" for monochromatic text
+  * Limit default tolerance with horizontal-alignment="adjust"
+
+ -- Jiri Drbalek <jiri.drbalek@firma.seznam.cz>  Mon, 04 Mar 2019 17:12:59 +0100
+
 szn-mapnik (3:3.10.7) Seznam; urgency=medium
 
   * Better implementation of gamma on texts and shields

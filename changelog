@@ -1,3 +1,9 @@
+szn-mapnik (3:3.10.9) Seznam; urgency=medium
+
+  * Fixed text shaping with text-mode="mono"
+
+ -- Jiri Drbalek <jiri.drbalek@firma.seznam.cz>  Tue, 05 Mar 2019 12:30:35 +0100
+
 szn-mapnik (3:3.10.8) Seznam; urgency=medium
 
   * New connection pool that can wait for free connection

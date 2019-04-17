@@ -35,6 +35,7 @@ Homepage: https://github.com/mapycz/mapnik
 
 Package: szn-libmapnik
 Architecture: any
+Conflicts: libmapnik3.0
 Depends:
  ${shlibs:Depends},
  ${misc:Depends}
@@ -91,6 +92,7 @@ Depends:
 Description: Mapnik SQLite input plugin for reading vector data in sqlite3 or spatialite databases.
 
 Package: szn-libmapnik-dev
+Conflicts: libmapnik-dev
 Section: libdevel
 Architecture: any
 Depends:

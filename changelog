@@ -1,3 +1,10 @@
+szn-mapnik (3:3.10.10) Seznam; urgency=medium
+
+  * Improved grain-merge-gimp
+  * New Add COLORIZER_LINEAR_ALL
+
+ -- Jiri Drbalek <jiri.drbalek@firma.seznam.cz>  Mon, 06 May 2019 16:26:59 +0200
+
 szn-mapnik (3:3.10.9) Seznam; urgency=medium
 
   * Fixed text shaping with text-mode="mono"

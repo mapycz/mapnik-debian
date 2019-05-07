@@ -1,3 +1,9 @@
+szn-mapnik (3:3.10.11) Seznam; urgency=medium
+
+  * New COLORIZER_LINEAR_ALL_BGRA
+
+ -- Jiri Drbalek <jiri.drbalek@firma.seznam.cz>  Tue, 07 May 2019 13:01:53 +0200
+
 szn-mapnik (3:3.10.10) Seznam; urgency=medium
 
   * Improved grain-merge-gimp

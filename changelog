@@ -1,3 +1,9 @@
+szn-mapnik (3:3.10.12) Seznam; urgency=medium
+
+  * Fix buffer overflow in src/text/scrptrun.cpp
+
+ -- Jiri Drbalek <jiri.drbalek@firma.seznam.cz>  Tue, 14 May 2019 18:15:00 +0200
+
 szn-mapnik (3:3.10.11) Seznam; urgency=medium
 
   * New COLORIZER_LINEAR_ALL_BGRA

@@ -12,6 +12,7 @@ mv ../*.deb /pkgs
 
 dpkg -i /pkgs/*.deb
 
+apt update
 apt install szn-mapnik-vector-tile-dev
 
 export JOBS=8

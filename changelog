@@ -1,3 +1,10 @@
+szn-mapnik (3:3.10.13) Seznam; urgency=medium
+
+  * Fixed parsing select with tabs '\t'
+  * Included raster plugin
+
+ -- Jiri Drbalek <jiri.drbalek@firma.seznam.cz>  Wed, 22 May 2019 17:34:05 +0200
+
 szn-mapnik (3:3.10.12) Seznam; urgency=medium
 
   * Fix buffer overflow in src/text/scrptrun.cpp

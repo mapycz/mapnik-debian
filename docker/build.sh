@@ -15,7 +15,7 @@ dpkg -i /pkgs/*.deb
 apt update
 apt install szn-mapnik-vector-tile-dev
 
-export JOBS=8
+export JOBS=32
 export MAPNIK_POSTGIS_TESTS=f
 export MAPNIK_VISUAL_TESTS=f
 

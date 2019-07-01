@@ -2,6 +2,8 @@ FROM docker.dev.dszn.cz/debian:buster-stable
 
 RUN echo >> /etc/apt/sources.list
 RUN echo "deb http://repo.dev.dszn.cz/repo/buster-dev buster-dev main" >> /etc/apt/sources.list
+RUN echo >> /etc/apt/sources.list
+RUN echo "deb http://repo.dev.dszn.cz/repo/buster-testing buster-testing main" >> /etc/apt/sources.list
 
 RUN apt-get update && \
         apt-get install -y \
@@ -55,9 +57,9 @@ RUN apt-get update && \
             szn-libmapbox-geometry-dev \
             szn-libprotozero-dev \
             szn-libwagyu-dev \
+            szn-mapnik-vector-tile-dev \
             sudo
 
-#szn-mapnik-vector-tile-dev \
 #szn-libcairo \
 
 COPY build.sh /

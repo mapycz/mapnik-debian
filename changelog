@@ -1,3 +1,10 @@
+szn-mapnik (3:3.11.4) Seznam; urgency=medium
+
+  * Changes to support Debian Buster
+  * Simplify buffer_stack, avoid premature optimization
+
+ -- Jiri Drbalek <jiri.drbalek@firma.seznam.cz>  Thu, 08 Aug 2019 12:08:21 +0200
+
 szn-mapnik (3:3.11.3) Seznam; urgency=medium
 
   * Use -std=c++14

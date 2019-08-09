@@ -1,3 +1,9 @@
+szn-mapnik (3:3.11.5) Seznam; urgency=medium
+
+  * Version bump
+
+ -- Jiri Drbalek <jiri.drbalek@firma.seznam.cz>  Fri, 09 Aug 2019 15:32:23 +0200
+
 szn-mapnik (3:3.11.4) Seznam; urgency=medium
 
   * Changes to support Debian Buster

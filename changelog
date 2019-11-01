@@ -1,3 +1,12 @@
+szn-mapnik (3:3.12.0) Seznam; urgency=medium
+
+  * Remove GroupSymoblizer
+  * Remove Grid renderer
+  * Remove SVG renderer
+  * Fixes a crash due tu empty geom
+
+ -- Jiri Drbalek <jiri.drbalek@firma.seznam.cz>  Fri, 01 Nov 2019 11:23:57 +0100
+
 szn-mapnik (3:3.11.6) Seznam; urgency=medium
 
   * Version bump

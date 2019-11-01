@@ -2,7 +2,7 @@
 
 set -exu
 
-export JOBS=3
+export JOBS=8
 
 cd /mapnik
 

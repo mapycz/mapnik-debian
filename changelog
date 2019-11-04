@@ -1,3 +1,9 @@
+szn-mapnik (3:3.12.2) Seznam; urgency=medium
+
+  * Fix race-condition in parallelizer.
+
+ -- Jiri Drbalek <jiri.drbalek@firma.seznam.cz>  Mon, 04 Nov 2019 14:21:59 +0100
+
 szn-mapnik (3:3.12.1) Seznam; urgency=medium
 
   * Put back accidentaly deleted file svg_renderer_agg.hpp

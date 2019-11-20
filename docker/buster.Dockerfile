@@ -58,9 +58,10 @@ RUN apt-get update && \
             szn-libprotozero-dev \
             szn-libwagyu-dev \
             szn-mapnik-vector-tile-dev \
+            szn-libcairo \
+            szn-libfreetype \
             sudo
 
-#szn-libcairo \
 
 COPY build.sh /
 

@@ -1,3 +1,11 @@
+szn-mapnik (3:3.14.0) Seznam; urgency=medium
+
+  * Use std=c++17
+  * Get rid of exception based parsing fallback
+  * Fix crash with async datasource
+
+ -- Jiri Drbalek <jiri.drbalek@firma.seznam.cz>  Wed, 15 Jan 2020 16:33:58 +0100
+
 szn-mapnik (3:3.13.0) Seznam; urgency=medium
 
   * Shaper cache

@@ -1,7 +1,7 @@
 Source: szn-mapnik
 Priority: optional
-Maintainer: Jiri Drbalek <jiri.drbalek@firma.seznam.cz>
-Uploaders: Jiri Drbalek <jiri.drbalek@firma.seznam.cz>
+Maintainer: mapy.alfa <mapy.alfa@firma.seznam.cz>
+Homepage: https://gitlab.seznam.net/mapycz/libmrender
 Build-Depends:
  g++ (>=4.9.1),
  make,
@@ -31,7 +31,6 @@ Build-Depends:
 Standards-Version: 3.8.4
 Section: libs
 XS-Python-Version: >= 2.5
-Homepage: https://github.com/mapycz/mapnik
 
 Package: szn-libmapnik
 Architecture: any

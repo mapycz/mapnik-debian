@@ -1,3 +1,9 @@
+szn-mapnik (3:3.14.6) Seznam; urgency=medium
+
+  * Fix 'is_reachable' optimization
+
+ -- Jiri Drbalek <jiri.drbalek@firma.seznam.cz>  Wed, 02 Sep 2020 15:19:36 +0200
+
 szn-mapnik (3:3.14.5) Seznam; urgency=medium
 
   * gdal: load all needed band metadata into memory during initialization

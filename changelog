@@ -1,3 +1,9 @@
+szn-mapnik (3:3.15.0) Seznam; urgency=medium
+
+  * Support of repeat-distance on MarkersSymbolizer
+
+ -- Jiri Drbalek <jiri.drbalek@firma.seznam.cz>  Wed, 11 Nov 2020 13:28:16 +0100
+
 szn-mapnik (3:3.14.6) Seznam; urgency=medium
 
   * Fix 'is_reachable' optimization

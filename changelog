@@ -1,3 +1,9 @@
+szn-mapnik (3:3.15.1) Seznam; urgency=medium
+
+  * ConnectionManager::close() to close all postgis connections.
+
+ -- Jiri Drbalek <jiri.drbalek@firma.seznam.cz>  Wed, 20 Jan 2021 13:35:43 +0100
+
 szn-mapnik (3:3.15.0) Seznam; urgency=medium
 
   * Support of repeat-distance on MarkersSymbolizer

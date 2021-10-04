@@ -1,3 +1,9 @@
+szn-mapnik (3:3.16.0) Seznam; urgency=medium
+
+  * Fix buffer-size-collisions with nested layers
+
+ -- Jiri Drbalek <jiri.drbalek@firma.seznam.cz>  Mon, 04 Oct 2021 10:17:35 +0200
+
 szn-mapnik (3:3.15.7) Seznam; urgency=medium
 
   * New option to prefix a GDAL dataset via env var
